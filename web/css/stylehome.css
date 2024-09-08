@@ -1,0 +1,156 @@
+body {
+    color: white;
+    background-color: #1d2630;
+    font-family: 'ZCOOL XiaoWei', serif;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+    min-height: 50vh;
+}
+
+.form-box form {
+    width: 100%;
+    max-width: 600px; 
+}
+
+.input-box {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.input-box .label-course {
+    font-size: 1.25rem;
+}
+
+.input {
+    width: 100%;
+    max-width: 400px; 
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.btn.add {
+    background-color: green;
+    color: white;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn.add:hover {
+    background-color: darkgreen;
+}
+
+.list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tbl {
+    width: 100%;
+    max-width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.tbl th, .tbl td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.tbl thead tr {
+    background-color: #202020; 
+}
+
+.tbl tbody tr {
+    background-color: #2a2a2a !important; 
+}
+
+.tbl th {
+    color: white;
+}
+
+.tbl tbody tr:nth-child(even) {
+    background-color: #2a2a2a !important; 
+}
+
+.tbl tbody tr:nth-child(odd) {
+    background-color: #2a2a2a !important; 
+}
+
+.tbl tbody tr td {
+    background-color: #2a2a2a !important;
+}
+
+.tbl .actions {
+    display: flex;
+    align-items: center;
+}
+
+.tbl .btn {
+    padding: 0.5rem 1rem; 
+    margin-right: 1rem;
+    border-radius: 0.25rem;
+    color: white;
+    text-decoration: none;
+}
+
+.tbl .edit {
+    background-color: darkgoldenrod;
+    color: black;
+}
+
+.tbl .edit:hover {
+    background-color: gold;
+    color: black;
+}
+
+.tbl .delete {
+    background-color: red;
+}
+
+.tbl .delete:hover {
+    background-color: darkred;
+}

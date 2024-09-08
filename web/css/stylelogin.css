@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 26, 2024, 9:12:01 AM
+    Author     : ksanj
+*/
+
+body {
+    background-image: url('../img/image4.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 72px; 
+    color: #2f3542;
+    margin-bottom: 20px;
+}
+
+.register-link {
+    text-decoration: none;
+}
+
+.register-link h1 {
+    font-size: 20px;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.register-link h1:hover {
+    transform: scale(1.1);
+    color: #eccc68;
+}
+
+.regbox {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: calc(100% - 20px); /* Adjust the width calculation if needed */
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 80%;
+    background: #eccc68;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 7px;
+    color: #000;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #ffa502;
+}
+
+.box a {
+    display: block;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.box a:hover {
+    color: #eccc68;
+}

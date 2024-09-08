@@ -1,0 +1,47 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jun 25, 2024, 6:59:51 PM
+    Author     : ksanj
+*/
+
+body {
+    background-image: url('../img/image3.jpg'); /* Update with your actual background image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arimo', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 72px; 
+    color: #2f3542;
+    margin-bottom: 20px;
+}
+
+.register-link {
+    text-decoration: none;
+}
+
+.register-link h1 {
+    font-size: 20px;
+    color: #fff;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.register-link h1:hover {
+    transform: scale(1.1);
+    color: #eccc68;
+}
+
